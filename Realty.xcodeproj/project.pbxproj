@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		74A3B9B324B4752300F9FF87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A3B9B224B4752300F9FF87 /* AppDelegate.swift */; };
 		74A3B9B524B4752300F9FF87 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A3B9B424B4752300F9FF87 /* SceneDelegate.swift */; };
-		74A3B9B724B4752300F9FF87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A3B9B624B4752300F9FF87 /* ViewController.swift */; };
 		74A3B9BA24B4752300F9FF87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74A3B9B824B4752300F9FF87 /* Main.storyboard */; };
 		74A3B9BC24B4752400F9FF87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74A3B9BB24B4752400F9FF87 /* Assets.xcassets */; };
 		74A3B9BF24B4752400F9FF87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74A3B9BD24B4752400F9FF87 /* LaunchScreen.storyboard */; };
+		74A3B9C724B487AA00F9FF87 /* MailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A3B9C624B487AA00F9FF87 /* MailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		74A3B9AF24B4752300F9FF87 /* Realty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Realty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74A3B9B224B4752300F9FF87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74A3B9B424B4752300F9FF87 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		74A3B9B624B4752300F9FF87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		74A3B9B924B4752300F9FF87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74A3B9BB24B4752400F9FF87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74A3B9BE24B4752400F9FF87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74A3B9C024B4752400F9FF87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74A3B9C624B487AA00F9FF87 /* MailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			children = (
 				74A3B9B224B4752300F9FF87 /* AppDelegate.swift */,
 				74A3B9B424B4752300F9FF87 /* SceneDelegate.swift */,
-				74A3B9B624B4752300F9FF87 /* ViewController.swift */,
+				74A3B9C624B487AA00F9FF87 /* MailViewController.swift */,
 				74A3B9B824B4752300F9FF87 /* Main.storyboard */,
 				74A3B9BB24B4752400F9FF87 /* Assets.xcassets */,
 				74A3B9BD24B4752400F9FF87 /* LaunchScreen.storyboard */,
@@ -138,9 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74A3B9B724B4752300F9FF87 /* ViewController.swift in Sources */,
 				74A3B9B324B4752300F9FF87 /* AppDelegate.swift in Sources */,
 				74A3B9B524B4752300F9FF87 /* SceneDelegate.swift in Sources */,
+				74A3B9C724B487AA00F9FF87 /* MailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
